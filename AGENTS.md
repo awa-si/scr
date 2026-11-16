@@ -6,7 +6,7 @@ branch: master
 mode: normative_machine_directives
 
 control_plane:
-- inherit: awa-si/admin/instructions.txt|awa-si/admin/workflow.md|awa-si/admin/coding.md_when_applicable
+- inherit: awa-si/admin/core.txt|awa-si/admin/behavior.txt|awa-si/admin/command.txt|awa-si/admin/workflow.md_when_applicable|awa-si/admin/workflow/coding.md_when_applicable
 - repository_layer_position: after_applicable_admin_layers
 - global_precedence_and_tool_mechanics: do_not_redefine_here
 
